@@ -1,0 +1,115 @@
+.accordion-page-mobile {
+	border-radius: 12px;
+	background: #f6f7f9;
+	border: 1px solid #d4dbe0;
+	padding: 20px;
+    @include screen-md {
+        .svens-medien-tabs {
+			display: block !important;
+			padding: 0 !important;
+		}
+    }
+	
+	.svens-medien-tabs .embeddedContentImageElement {
+		object-fit: fill !important;
+	}
+
+    .quoteBoxTitle {
+        display: none;
+    }
+
+	summary {
+		color: #3579BD;
+		font-weight: bold;
+	}
+
+    .sven-berger-einzelnes-top-zitat-1 {
+		background: #f6f7f9 !important;
+	}
+
+	.sven-berger-einzelnes-top-zitat-2 {
+		background: #f8f6f6 !important;
+	}
+	
+	.boxesSidebarRight .box {
+		border-radius: 9px;
+			.boxTitle {
+				color: #fff;
+			}
+	}
+
+	.boxesContentTop:not(:first-child) {
+		margin-top: 20px !important;
+	}
+
+	.medien-tabs {
+		border: 0 !important;
+		padding: 0 !important;
+		background: none !important;
+	}
+}
+
+@include screen-md-down {
+	.accordion-medien .medien-tabs {
+		display: block !important;
+	}
+}
+
+.accordion-lieblingszitate .box {
+	margin-top: 20px !important;
+	padding: 0 !important;
+	box-shadow: none !important;
+
+	.boxTitle {
+		color: #274251 !important;
+	}
+
+	.boxContent {
+		padding: 0 12px;
+		border-bottom: 1px solid #d4dbe0;
+		border-radius: 0 0 8px 8px;
+	}
+}
+
+.accordion-content-1 {
+	details {
+		background: #f6f7f9 !important;
+		border: 1px solid #d4dbe0 !important;
+		border-radius: 8px;
+		padding: 12px;
+		margin: 10px 0;
+	}
+	
+	.boxesContentTop {
+		margin-top: 10px !important;
+		.section {
+		padding: 0 20px 20px 20px !important;
+	}
+	}
+	
+	.details-details {
+		margin: 20px 20px 20px 0;;
+	}
+	
+	summary {
+		color: #2b4959;
+		background: #fff !important;
+		border: 1px solid #d4dbe0 !important;
+  		border-radius: 8px;
+		padding: 12px;
+	}
+	
+	.boxxerBoxBBCodeContainer {
+			h3 {
+				font-weight: 400;
+    			color: #202020;
+				margin: 1.5em 0 1em 0 !important;
+				font-size: 17px;
+			}
+		
+			ul:not(.tabMenu ul) {
+			    list-style-type: disc;
+				margin: 1em 0 1em 40px !important;
+			}
+	}
+}

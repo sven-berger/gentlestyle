@@ -1,0 +1,60 @@
+.mein-inhalt {
+    .sidebarItemTitle {
+        margin-left: 5px;
+    }        
+    .userAvatarImage {
+        width: 64px !important;
+        height: 64px;
+        border-radius: 5px;
+    }  
+}
+
+.auflistung {
+	border: none !important;
+	padding: 0 !important;
+	margin: 0 0 0 20px !important;
+	
+	::marker {
+		margin-right: 10px !important;
+		content: '\f0a9' ' ' !important;
+        font-family: FontAwesome;
+		color: #3579BD;
+		font-size: 16px;
+	}
+}
+
+.fa-arrow-circle-right {
+	margin-right: 5px;
+	color: #3579BD;
+	font-size: 16px;
+}
+
+.boxContent .fa-check {
+	color: green;
+}
+
+.boxContent .fa-times {
+    color: red;
+}
+
+.zuletzt-bearbeitet {
+	display: none !important;
+}
+
+#tpl_wcf_legalNotice, .kontaktformular {
+	.content .section {
+		background: #f6f7f9 !important;
+		border: 1px solid #d4dbe0 !important;
+		border-radius: 8px;
+		box-shadow: 0 1px 4px rgba(0, 0, 0, 0.12);
+		padding: 12px;
+	}
+}
+
+#tpl_wcf_login .loginFormLogin, #tpl_wcf_login .loginFormRegister, #tpl_wcf_login .loginFormThirdPartyLogin {
+	background: #f6f7f9 !important;
+	border: 1px solid #d4dbe0 !important;
+	border-radius: 8px;
+	box-shadow: 0 1px 4px rgba(0, 0, 0, 0.12);
+	padding: 12px;
+}

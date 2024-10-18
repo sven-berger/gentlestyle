@@ -1,0 +1,25 @@
+#tpl_blog_entry, 
+#tpl_blog_blogEntryList,
+#tpl_wcf_article {
+	.legend-box {
+    	background: #fff !important;
+	}
+
+	.legend-box-legend {
+		background: #f6f7f9 !important;
+	}
+}
+
+.legend-box {
+	background: #f6f7f9 !important;
+	border: 1px solid #d4dbe0 !important;
+  	border-radius: 8px;
+}
+	
+.legend-box-legend {
+	color: #2b4959 !important;
+	background: #fff !important;
+	border: 1px solid #d4dbe0 !important;
+  	border-radius: 8px;
+  	box-shadow: 0 1px 4px rgba(0, 0, 0, 0.12);
+}
